@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+.text-white{
+    color: white !important;
+}
+#header {
+    height: 46px;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+#header .shearch-btn{
+    float: right;
+    color: #ccc;
+    line-height: 46px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+#header .shearch-btn:hover  {
+    background-color: orangered;
+    cursor: pointer;
+}
+#nav{
+    display: inline-block;
+}
+#nav, .subnav {
+   list-style-type: none; 
+}
+#nav .ti-angle-double-down{
+    font-size: 13px;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+    position: relative;
+}
+ #nav > li:hover > a,
+ #nav .subnav li:hover {
+    color: #000;
+    background-color: #ccc;
+    
+}
+#nav li:hover .subnav {
+    display: block;
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 24px;
+    line-height: 46px;
+    display: block;
+   
+}
+#nav .subnav a{
+    color: #000;
+    line-height: 38px;
+ }
+
+#nav .subnav {
+    display:  none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+
+#silde {
+    padding-top: 50%;
+    margin-top: 46px;
+    background-image: url('https://i.pinimg.com/originals/81/df/3f/81df3f704ba55281ead0042466b293fa.jpg') ;
+    background-repeat: no-repeat; 
+    background-size: cover ;
+    position: relative;
+
+}
+#silde .text-content{
+    position: absolute;
+    color: orange;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#silde .text{
+padding: 10px 0;
+}
+
+#silde .text2{
+
+}
+
+#content {
+
+}
+#content  .content-heading{
+    width: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0 112px; 
+ 
+}
+.content-heading-one{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0; 
+}
+
+#content  .heading-one,
+#content  .heading-two{
+    text-align: center;
+}
+
+#content  .heading-one{
+    letter-spacing: 3px; 
+    margin-top: 25px;  
+}
+
+#content  .heading-two{
+    margin-top: 15px;
+    opacity: 0.5; 
+    font-style: italic;
+}
+
+#content  .about{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 1.6;
+}
+#content .img-iteam{
+    padding-top : 30px;
+    text-align: center;
+}
+#content .img-name{
+    font-size: 15px;
+}
+#content .avt-img{
+ width: 250px;
+ margin-top: 10px;
+ border-radius: 5px;
+ 
+}
+#content .review{
+   
+    background-color: black;
+    
+}
+.review .heading-one{
+    margin-top: 15px;
+}
+.heading-one:hover{
+    color: aqua;
+}
+
+.profile{
+    margin-top: 40px;
+    background-color: white;
+    
+    
+    
+}
+.profile li a{
+    color: blue;  
+}
+.profile li {
+    
+    list-style: none;
+    text-align: center;
+    padding: 20px 16px;
+    background-size: 15px;
+    color: #757575;
+    border-bottom: 1px solid #ddd;
+}
+.sub{
+    text-decoration: none
+}
+.profile li:hover {
+    background-color: violet;
+}
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row-content{
+    margin-top: 48px;
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.mt-8{
+    margin-top: 10px !important;
+}
+.contact-info i[class*="ti-"]{
+    width: 30px;
+
+    display: inline-block;
+
+}
+.col {
+    float: left;
+    padding-left: 8px ;
+    padding-right: 8px;
+}
+.col-half{
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+.row::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.contact-font .from-control{
+    padding: 11px; 
+    border: 2px solid black;
+    width: 100%;   
+}
+.contact-font .from-submit{
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    float: right;
+    
+}
+.from-submit{
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+#footer .copyright{
+   font-size: 19px;
+  
+}
+#footer .copyright:hover{
+    color: orange;
+}
+#footer {
+    padding: 64px 16px; 
+    text-align: center;
+    padding-bottom: 0;
+ }
